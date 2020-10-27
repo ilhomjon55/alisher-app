@@ -36,8 +36,6 @@ var hotelExpense = 250 * dollar;
 var museumExpense = 120 * euro;
 var travelExpenses = flyExpense + hotelExpense + museumExpense;
 
-debugger;
-
 var travelExpensesShower = document.querySelector('.result-expenses');
 travelExpensesShower.textContent = `Overall expenses: ${travelExpenses} UZS`;
 
